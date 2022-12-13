@@ -17,8 +17,6 @@ jobs:
         with:
           java-version: 11
 
-      - name: Cache Gradle and wrapper
-        uses: actions/cache@v2
         with:
           path: |
             ~/.gradle/caches
